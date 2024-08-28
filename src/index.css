@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .body {
+    @apply w-full font-Inter bg-slate-950 text-white overflow-x-hidden;
+  }
+
+  .text-paragraft {
+    @apply text-xs text-slate-200 md:text-sm lg:text-xl;
+  }
+
+  .text-heading {
+    @apply text-2xl leading-tight md:text-3xl lg:text-4xl text-slate-100 font-black;
+  }
+
+  .btn-primary {
+    @apply bg-orange-500 shadow text-sm md:text-lg lg:text-xl font-semibold px-4 py-1.5 lg:py-2 lg:px-5 rounded md:rounded-md;
+  }
+
+  .btn {
+    @apply text-sm md:text-lg lg:text-xl font-semibold px-4 py-1.5 lg:py-2 lg:px-5 rounded md:rounded-md;
+  }
+
+}
