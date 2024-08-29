@@ -10,7 +10,6 @@ const BtnChangeMovie = ({ textBtn, getApi }) => {
 
 const movieUrl = 'https://api.themoviedb.org/3/movie/popular?api_key=1d41356d1fc2c3dd914c85d9c7d6a3e2';
 const tvUrl = 'https://api.themoviedb.org/3/trending/tv/day?api_key=1d41356d1fc2c3dd914c85d9c7d6a3e2';
-const apiKey = 'api_key=1d41356d1fc2c3dd914c85d9c7d6a3e2';
 
 
 const MainMovies = () => {
